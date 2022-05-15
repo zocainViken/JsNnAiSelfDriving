@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #888888;
+    /*text-align: center;*/
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#vertical_button{
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover{
+    background-color: purple;
+}
+#car_canvas{
+    background-color: darkgray;
+}#network_canvas{
+    background-color: #6a6a6a;
+}
